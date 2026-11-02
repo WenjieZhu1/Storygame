@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial;
+    background-color: #eeeeee;
+    color: black;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+    letter-spacing: 1px;
+    margin: 20px;
+    padding: 15px;
+    border: 4px dashed blue;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+#inventory-display {
+    background-color: lightyellow;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    border: 2px dotted orange;
+}
+
+#health-display {
+    font-weight: bold;
+    color: darkred;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+    background-color: lightblue;
+    cursor: pointer;
+}
